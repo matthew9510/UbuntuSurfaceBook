@@ -160,6 +160,9 @@ $ sudo chmod 700 hibernate
 ```
 
 15. Now every time you want to put your computerin hibernation run this script. 
+```
+$ sudo sh hibernate
+```
 
 <br>
 <hr>
