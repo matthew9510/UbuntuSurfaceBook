@@ -24,8 +24,8 @@ Setup of a Microsoft Surface Book to run Ubuntu!
 6.Plugin the live USB stick and restart, Linux bootloader should come up automatically
 
 ### Install Ubuntu
-1.Simply click on the Installer shortcut and follow the instructions
-2.Download updates while installing ubuntu 
+1. Simply click on the Installer shortcut and follow the instructions
+2. Download updates while installing ubuntu 
 ![Install updates](Images/installubuntuupdates.jpg)
 3. Select Installation type for your system
     - Choose Something else and click continue
@@ -39,9 +39,8 @@ Setup of a Microsoft Surface Book to run Ubuntu!
         - Select Swap area for the Use as menu
         - Click okay
 ![Swap partition](Images/swappartition.jpg)
-    
-
-        - Again click the free space partition and click the + icon on the left of the install screen. We are going to create a partition to install Ubuntu on.
+    - Again 
+        - click the free space partition and click the + icon on the left of the install screen. We are going to create a partition to install Ubuntu on.
         - Specify the size value to be your desired size of the Ubutnu operating system 
         - Select Primary for the Type for the new partition
         - Select Beginning of this space for the Location for the new partition. 
@@ -51,21 +50,23 @@ Setup of a Microsoft Surface Book to run Ubuntu!
 ![Ubuntu partition](Images/ubuntupartition.jpg)
 
     - Select the ubuntu partition as the Device for boot loader installation and then click Install Now
+4. Continue Answering questions to finalize the instsallation process. 
+5. Reboot
 
 <br>
 <hr>
 
-### Further improvements:
-#### Touch and Pen
+## Further improvements:
+### Touch and Pen
 GitHub user jakeday created a [surface kernel](https://github.com/jakeday/linux-surface) where pen and touch is working. Thanks a lot!
 
 <br>
 <hr>
 
-#### Hibernation 
-<span style="background-color:yellow"> **Note:** To Get Hibernation to work jakeday's solution wasn't working for me, instead I did this: </span>
+### Hibernation 
+<span style="background-color:yellow"> **Note:** To Get Hibernation to work jakeday's solution wasn't working for me </span>
 
-Here is what I did to make it work with Ubuntu 18.04.
+#### Here is what I did to make it work with Ubuntu 18.04:
 
 1. Make your /swapfile have at least the size of your RAM
 
@@ -184,6 +185,7 @@ WiFi sometimes required a reboot to connect again after system configuration cha
 <br>
 <hr>
 
-### Resources 
+## Resources 
 [Install Ubuntu](https://askubuntu.com/questions/741851/using-ubuntu-on-microsoft-surface-book)
+
 [Setting up hibernation](https://askubuntu.com/questions/6769/hibernate-and-resume-from-a-swap-file)
